@@ -30,6 +30,8 @@
 #include "mm_jpeg_dbg.h"
 #include "mm_jpeg.h"
 #include <errno.h>
+#include <string.h>
+#include <stdlib.h>
 #include <math.h>
 
 

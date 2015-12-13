@@ -31,6 +31,9 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 #include <utils/Log.h>
 
 #include "qomx_core.h"
+#include <string.h>
+#include <errno.h>
+#include <stdlib.h>
 
 #define BUFF_SIZE 255
 

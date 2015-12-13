@@ -30,6 +30,9 @@
 #include <pthread.h>
 #include "mm_jpeg_dbg.h"
 #include "mm_jpeg.h"
+#include <errno.h>
+#include <string.h>
+#include <stdlib.h>
 
 int32_t mm_jpeg_queue_init(mm_jpeg_queue_t* queue)
 {

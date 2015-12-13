@@ -53,6 +53,8 @@ camera_module_t HAL_MODULE_INFO_SYM = {
 #ifndef USE_KK_CODE
     open_legacy: NULL,
 #endif
+    set_torch_mode: NULL,
+	init: NULL,
     reserved:  {0}
 //#endif
 };

@@ -21,6 +21,7 @@
 #include <hardware/sensors.h>
 #include <fcntl.h>
 #include <errno.h>
+#include <string.h>
 #include <dirent.h>
 #include <math.h>
 #include <poll.h>
